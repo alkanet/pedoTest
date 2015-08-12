@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello World, PedoMeter"
+            />
+    <Button android:id="@+id/bindBtn" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/startBtn" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+    <LinearLayout android:id="@+id/box_steps"
+                  android:orientation="vertical"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:gravity="center_horizontal"
+                  android:layout_weight="1">
+
+        <TextView android:id="@+id/step_value"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:gravity="center_horizontal"
+                  android:text=""/>
+        <TextView android:id="@+id/step_units"
+                  android:gravity="center_horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:text=""/>
+
+    </LinearLayout>
+</LinearLayout>
+
